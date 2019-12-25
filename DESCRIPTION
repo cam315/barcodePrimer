@@ -1,0 +1,12 @@
+Package: barcodePrimer
+Type: Package
+Title: A package to randomly generate barcoded primer set combinations without primer dimers
+Version: 0.1.0
+Author: Sizhong Yang
+Maintainer: Sizhong Yang <yanglzu@163.com>
+Description: This tiny package aims at the barcoded primer sets for amplicon sequencing. Based on the report of primer set in Thermo Fisher Scientific, this package will parse the result, and then randomly generate barcoded primer set.
+    Use four spaces when indenting paragraphs within the Description.
+URL: https://github.com/cam315/barcodePrimer
+License: GPL(>=3)
+Encoding: UTF-8
+LazyData: true
