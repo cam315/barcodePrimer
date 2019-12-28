@@ -6,6 +6,7 @@ For technical reasons, the identifiers for barcoded primers must follow structur
 The package is developed upon the primer check result by Multiple Primer Analyzer of Thermo Fisher Scientific and so far only support primer chec result by the above mentioned tool. Please input primers in 'two column format', with 1st column of primer identifier and 2nd column of sequence of barcoded primer (barcode+primer). It is recommended to set "Value of the sensivity for dimmer detection" to 1 for maximum sensitive detection. After the online check, the resultant txt file (not the tabular result) can be used as 'report' file into this package. Please use readLines() to read this file into R and analyze with this package.
 ## How to install this package from github?
 library(devtools)
-install_github("cam315/barcodePrimer")
+
+install_github('cam315/barcodePrimer')
 ## Questions
 If you have any questions, please report in ‘Issues' or directly contact me at yanglzu@163.com.
